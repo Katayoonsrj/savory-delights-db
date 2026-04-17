@@ -1,0 +1,90 @@
+
+Savory Delights: Staff Certification Status Report
+EMPLOYEE NAME                  CERTIFICATION                          ISSUE DATE  EXPIRY DATE STATUS
+------------------------------ -------------------------------------- ----------- ----------- ------------------------
+Anderson, Margaret             Food Handler Certification             2024-03-25  2027-03-25  ACTIVE
+
+Arbuckle, Jonathan             Food Handler Certification             2021-02-18  2024-02-18  EXPIRED
+
+Bautista, August               Driver Safety                          2022-06-30  2027-06-30  ACTIVE
+                               Class B Drivers License                2023-01-01  2028-01-01  ACTIVE
+
+Bearimy, Jeremy                Food Handler Certification             2020-10-09  2023-10-09  EXPIRED
+                               Restaurant Safety Certification        2021-01-01  2026-01-01  EXPIRES WITHIN 30 DAYS
+
+Butterworth, Frank             Food Handler Certification             2025-05-23  2028-05-23  ACTIVE
+
+Carter, Emily                  Food Handler Certification             2021-03-14  2024-03-14  EXPIRED
+                               Food Allergy & Safety Training         2022-05-01  2025-05-01  EXPIRED
+
+Coleman, Grace                 Food Handler Certification             2022-06-01  2025-06-01  EXPIRED
+
+Coleman, Pearce                Food Handler Certification             2022-02-28  2025-02-28  EXPIRED
+
+Diaz, Jane                     Alcohol Server Certification           2022-11-05  2025-11-05  EXPIRED
+                               Alcohol Beverage Certification         2023-01-01  2026-01-01  EXPIRES WITHIN 30 DAYS
+
+Doberville, Derrell            Food Handler Certification             2024-09-03  2027-09-03  ACTIVE
+
+Garcia, Owen                   Food Handler Certification             2021-03-01  2024-03-01  EXPIRED
+                               Kitchen Manager Certification          2020-09-20  2025-09-20  EXPIRED
+
+Harrell, Tomomi                Food Handler Certification             2023-03-28  2028-03-28  ACTIVE
+
+Harris, Mason                  Driver Safety                          2022-08-05  2025-08-05  EXPIRED
+
+Hernandez, Jamal               City Business License                  2019-12-01  2024-12-01  EXPIRED
+                               Event Coordinator Certificate          2020-01-01  2025-01-01  EXPIRED
+
+Merricks, Jessie               Food Handler Certification             2022-10-17  2025-10-17  EXPIRED
+                               Restaurant Safety Certification        2023-01-01  2026-01-01  EXPIRES WITHIN 30 DAYS
+
+Mitchell, Grace                Alcohol Server Certification           2023-02-17  2026-02-17  ACTIVE
+                               Alcohol Beverage Certification         2023-03-01  2026-03-01  ACTIVE
+
+Nelson, Liam                   Food Handler Certification             2023-01-01  2026-01-01  EXPIRES WITHIN 30 DAYS
+
+Nelson, Mark                   Food Handler Certification             2023-10-14  2026-10-14  ACTIVE
+                               Restaurant Safety Certification        2024-01-01  2027-01-01  ACTIVE
+
+Nguyen, Lena                   Food Handler Certification             2020-01-10  2023-01-10  EXPIRED
+                               Restaurant Safety Certification        2020-06-01  2025-06-01  EXPIRED
+
+Oyanagi, Jordan                Alcohol Server Certification           2019-12-04  2024-12-04  EXPIRED
+
+Perez, Nino                    Driver Safety                          2020-01-01  2025-01-01  EXPIRED
+                               Class B Drivers License                2021-01-01  2026-01-01  EXPIRES WITHIN 30 DAYS
+
+Rahmani, Farhad                Driver Safety                          2023-04-05  2026-04-05  ACTIVE
+                               Food Delivery Safety Training          2023-04-15  2026-04-15  ACTIVE
+
+
+Savory Delights: Staff Certification Status Report
+EMPLOYEE NAME                  CERTIFICATION                          ISSUE DATE  EXPIRY DATE STATUS
+------------------------------ -------------------------------------- ----------- ----------- ------------------------
+Shatner, Will                  Food Handler Certification             2022-04-21  2025-04-21  EXPIRED
+                               Restaurant Safety Certification        2022-06-01  2027-06-01  ACTIVE
+
+Singh, Priya                   Driver Safety                          2021-06-01  2026-06-01  ACTIVE
+
+Smith, Louise                  Food Handler Certification             2023-06-17  2027-06-17  ACTIVE
+
+Smithson, Chris                Food Handler Certification             2022-11-12  2025-11-12  EXPIRED
+                               Food Allergy & Safety Training         2023-02-01  2026-02-01  ACTIVE
+
+Song, Aria                     Driver Safety                          2022-09-26  2025-09-26  EXPIRED
+
+Thompson, Ava                  Food Handler Certification             2020-11-30  2023-11-30  EXPIRED
+                               Restaurant Safety Certification        2021-02-01  2024-02-01  EXPIRED
+                               Food Allergy & Safety Training         2022-02-01  2025-02-01  EXPIRED
+
+Underhill, Morgan              Food Handler Certification             2023-05-16  2027-05-16  ACTIVE
+
+Worthe, Charles                Food Handler Certification             2022-08-13  2025-08-13  EXPIRED
+
+Wright, Jacob                  Driver Safety                          2019-07-22  2024-07-22  EXPIRED
+                               Food Delivery Safety Training          2020-01-01  2025-01-01  EXPIRED
+
+
+48 rows selected.
+

@@ -1,0 +1,606 @@
+====================
+1. When were the clients last orders placed?
+====================
+
+CLIE CLI_FNAME            CLI_LNAME                      Last Orde
+---- -------------------- ------------------------------ ---------
+C001 Emily                Johnson                        14-JUL-25
+C002 James                Miller                         26-FEB-25
+C003 Olivia               Brown                          09-NOV-25
+C004 Ethan                Davis                          12-MAY-25
+C005 Chloe                Wilson                         08-MAR-25
+C006 Alice                Lopez                          28-JUL-25
+C007 Brian                Chen                           25-APR-25
+C008 Dana                 Patel                          01-SEP-25
+C009 Evan                 Torres                         01-FEB-25
+C010 Alana                Burghes                        01-JUL-25
+C011 Miah                 Foster                         21-AUG-25
+C012 Jane                 Flores                         03-MAY-25
+C013 Dawud                Sharif                         20-MAY-25
+C014 Chester              MacGuff                        13-MAY-25
+C015 Konrad               Hastilow                       16-MAY-25
+====================
+2. Which menu items have never been ordered?
+====================
+
+MENU Dish Name
+---- -------------------------
+M045 Banana Fritters
+M013 Beef Biryani
+M014 Beef Pilaf
+M012 Chicken Biryani
+M015 Chicken Tikka
+M036 Cucumber Lime Refresher
+M033 Ginger Iced Tea
+M016 Halewa
+M035 Hibiscus Tea
+M044 Matcha Cheesecake
+M037 Passion Fruit Soda
+M034 Tamarind Juice
+====================
+3. Show all the vegan dishes and their cost
+====================
+
+Dish Name                                                                                            Dish Price
+---------------------------------------------------------------------------------------------------- ----------
+Vegetable Stir Fry                                                                                        10.75
+Pumpkin Curry                                                                                                14
+Halewa                                                                                                      7.5
+Mango Sticky Rice                                                                                          8.25
+Che Ba Mau                                                                                                 6.75
+Bungeo-ppang                                                                                               4.25
+Coconut Pudding                                                                                            5.75
+Ethiopian Honey Wine                                                                                        9.5
+Tlong                                                                                                      3.75
+Southern Sweet Tea                                                                                          2.5
+Makgeolli                                                                                                     6
+Lemon Mint Cooler                                                                                           3.5
+Ginger Iced Tea                                                                                            3.75
+Tamarind Juice                                                                                              3.5
+Hibiscus Tea                                                                                               3.25
+Cucumber Lime Refresher                                                                                     3.5
+Passion Fruit Soda                                                                                            4
+Vietnamese Coconut Water                                                                                    3.5
+Korean Corn Tea                                                                                            2.75
+Banana Fritters                                                                                               5
+====================
+4. Show how much each client has spent ordered from most to least
+====================
+
+Clie Client Name                                         Total Spent
+---- --------------------------------------------------- -----------
+C008 Dana Patel                                                 1424
+C006 Alice Lopez                                              944.75
+C007 Brian Chen                                               722.75
+C009 Evan Torres                                                 675
+C010 Alana Burghes                                               665
+C002 James Miller                                              194.5
+C004 Ethan Davis                                                 188
+C015 Konrad Hastilow                                             171
+C001 Emily Johnson                                               170
+C012 Jane Flores                                              153.75
+C003 Olivia Brown                                                148
+C005 Chloe Wilson                                                134
+C013 Dawud Sharif                                              130.5
+C011 Miah Foster                                                 104
+C014 Chester MacGuff                                           90.25
+====================
+5. Show how many orders each chef has filled from most to least filled orders
+====================
+
+Chef Chef Name                                           Orders Filled
+---- --------------------------------------------------- -------------
+S019 Morgan Underhill                                                3
+S012 Jessie Merricks                                                 2
+S003 Ava Thompson                                                    2
+S020 Liam Nelson                                                     1
+S018 Charles Worthe                                                  1
+S027 Tomomi Harrell                                                  1
+====================
+6. Which employees have either their Food Delivery Safety Training or Driver Safety?
+====================
+
+Staf Employee Name                                       Certification
+---- --------------------------------------------------- --------------------------------------------------
+S002 Jacob Wright                                        Driver Safety
+S002 Jacob Wright                                        Food Delivery Safety Training
+S004 Mason Harris                                        Driver Safety
+S008 Priya Singh                                         Driver Safety
+S013 Farhad Rahmani                                      Driver Safety
+S013 Farhad Rahmani                                      Food Delivery Safety Training
+S015 August Bautista                                     Driver Safety
+S029 Aria Song                                           Driver Safety
+S031 Nino Perez                                          Driver Safety
+====================
+7. Show how many different dishes were ordered for each package order
+====================
+
+Pack Dishes Ordered
+---- --------------
+O001             10
+O002             10
+O003             10
+O004             10
+O005             10
+O006             85
+O007             80
+O008            130
+O009             85
+O010             45
+O011             10
+O012             15
+O013             16
+O014             17
+O015             18
+====================
+8. How many times has each car been used?
+====================
+
+CAR_ Times Used
+---- ----------
+CA13          3
+CA12          3
+CA11          3
+CA10          3
+CA09          3
+CA07          3
+CA06          2
+CA05          3
+CA04          3
+CA03          2
+CA01          2
+====================
+9. How many supply orders has each supplier filled?
+====================
+
+Supp Supplier Name                                      Number of Supply Orders
+---- -------------------------------------------------- -----------------------
+SP26 Horizon Spice Traders                                                    2
+SP07 Metro Produce Co                                                         2
+SP03 PureSpring Beverages                                                     1
+SP06 Green Valley Farms                                                       1
+SP27 Everfresh Greens                                                         1
+SP29 Blue Mountain Dairy                                                      1
+SP31 Bayside Microgreens                                                      1
+SP23 Sierra Baking Collective                                                 1
+SP19 Redwood Herbal Co.                                                       1
+SP24 Cascade Specialty Meats                                                  1
+SP25 Commons Traditional Fisheries                                            1
+SP30 Pacific Event Decor                                                      1
+SP14 Bees Knees Apiary                                                        1
+SP13 Forkfield Farms                                                          1
+SP16 Delphi Strawberry Fields Co.                                             1
+SP22 Northern Party Rentals                                                   1
+SP28 Harvest Home Bakery                                                      1
+SP12 Hundred Acre Orchard                                                     1
+SP21 Coastal Beverage Wholesale                                               1
+SP18 Mertz Family Oysters                                                     1
+SP05 Heritage Meats                                                           1
+SP02 Golden Grains Co.                                                        1
+SP08 Jersey Farm Ltd                                                          1
+SP32 Redwood Ridge Poultry                                                    1
+SP04 Premium Party Supplies                                                   1
+SP01 Sunrise Farm                                                             1
+SP09 Artisan Breads                                                           1
+SP11 Harrell Farms                                                            1
+SP17 Cornucopia Corn Farm                                                     1
+SP20 Nathan Fillan                                                            1
+SP10 Pacific Coast Seafood                                                    1
+SP15 Apollo Ranchers                                                          1
+====================
+10. On which dates did the business have delivery orders in 2025?
+====================
+
+Delivery  Total Meal Deliveries
+--------- ---------------------
+07-JAN-25                     1
+13-FEB-25                     1
+26-FEB-25                     1
+05-MAR-25                     1
+08-MAR-25                     1
+15-APR-25                     1
+10-MAY-25                     1
+12-MAY-25                     1
+12-JUN-25                     1
+14-JUL-25                     1
+18-JUL-25                     1
+28-JUL-25                     1
+21-AUG-25                     1
+10-SEP-25                     1
+09-NOV-25                     1
+====================
+11. Show the total number of orders for each package event type from most to least
+====================
+
+Event Type           Total # of Orders
+-------------------- -----------------
+Wedding                              5
+Birthday                             2
+Baby Shower                          2
+Corporate Lunch                      2
+Elderly Dinner                       1
+Athletics Banquet                    1
+Fundraiser                           1
+Retreat                              1
+====================
+12. Which cars can serve different types of events?
+====================
+
+Car  Number of Use Types
+---- -------------------
+CA06                   2
+====================
+13. All orders where the assigned chefs food handlers certification will expire before the event date
+====================
+
+Order  Order Del Chef Name                                           Food Hand
+------ --------- --------------------------------------------------- ---------
+O020   05-MAR-25 Ava Thompson                                        30-NOV-23
+
+O022   10-SEP-25 Ava Thompson                                        30-NOV-23
+
+====================
+14. Which menu items have gluten allergen tags?
+====================
+
+Dish Name
+-------------------------
+Beef Lasagna
+Chicken Alfredo
+Doro Wat
+Peach Cobbler
+Bungeo-ppang
+Baklava
+Gulab Jamun
+Chocolate Lava Cake
+Matcha Cheesecake
+Banana Fritters
+====================
+15. How many cuisines can each chef cook?
+====================
+
+Chef Name                                           Number of Cuisine Specialties
+--------------------------------------------------- -----------------------------
+Morgan Underhill                                                                2
+Grace Coleman                                                                   2
+Jeremy Bearimy                                                                  2
+Charles Worthe                                                                  1
+Derrell Doberville                                                              2
+Jessie Merricks                                                                 3
+Mark Nelson                                                                     1
+Ava Thompson                                                                    2
+Lena Nguyen                                                                     1
+Will Shatner                                                                    2
+Pearce Coleman                                                                  1
+Tomomi Harrell                                                                  2
+Liam Nelson                                                                     2
+Louise Smith                                                                    3
+Jonathan Arbuckle                                                               1
+====================
+16. What is the average guest count across the different types of package events?
+====================
+
+Event Type           AVG(GUEST_COUNT)
+-------------------- ----------------
+Elderly Dinner                     12
+Baby Shower                      19.5
+Retreat                            25
+Corporate Lunch                    26
+Fundraiser                         30
+Athletics Banquet                  32
+Birthday                           44
+Wedding                          67.6
+====================
+17. Which clients have ordered both meal delivery and event catering?
+====================
+
+CLIE CLI_FNAME            CLI_LNAME
+---- -------------------- ------------------------------
+C001 Emily                Johnson
+C002 James                Miller
+C003 Olivia               Brown
+C004 Ethan                Davis
+C005 Chloe                Wilson
+C006 Alice                Lopez
+C007 Brian                Chen
+C008 Dana                 Patel
+C009 Evan                 Torres
+C010 Alana                Burghes
+C011 Miah                 Foster
+C012 Jane                 Flores
+C013 Dawud                Sharif
+C014 Chester              MacGuff
+====================
+18. Find orders where a clients allergy conflicts with at least one ordered menu item.
+====================
+
+Order  Client                         Client Allergy
+------ ------------------------------ ------------------------------
+Dish Name
+----------------------------------------------------------------------------------------------------
+Dish Allergy
+------------------------------
+O002   James Miller                   Dairy
+Grilled Salmon
+dairy
+
+
+O008   Dana Patel                     Gluten
+Doro Wat
+gluten
+
+
+====================
+19.  How many different products have been supplied by local farmers?
+====================
+
+COUNT(DISTINCTSOI.INGREDIENT_NAME)
+----------------------------------
+                                35
+====================
+20. Show how often each equipment has been used
+====================
+
+EQUI EQUIPMENT ITEM               Number of uses
+---- ---------------------------- --------------
+EQ02 Coolers                                   1
+EQ13 Tinfoil                                  25
+EQ09 Warmers                                   1
+EQ03 Portable Stoves                           1
+EQ08 Tents                                     1
+EQ07 Tables                                    2
+EQ10 Glassware                                 1
+EQ05 Plates                                    1
+EQ06 Chairs                                    3
+====================
+21. What is the difference between the clients order quote and the actual cost of the items they ordered?
+====================
+
+Order  Quoted Amount Actual Order Cost   Difference
+------ ------------- ----------------- ------------
+O001       $1,220.00           $135.00    $1,085.00
+
+O002       $1,231.00           $172.50    $1,058.50
+
+O003       $1,235.00           $107.50    $1,127.50
+
+O004       $1,246.00           $140.00    $1,106.00
+
+O005       $1,242.00           $125.00    $1,117.00
+
+O006       $1,200.00           $867.50      $332.50
+
+O007         $900.00           $710.00      $190.00
+
+O008       $1,500.00         $1,405.00       $95.00
+
+O009       $1,500.00           $618.75      $881.25
+
+O010       $1,500.00           $480.00    $1,020.00
+
+O011          $32.11            $90.00      -$57.89
+
+O012         $321.11           $123.75      $197.36
+
+O013         $412.11           $108.00      $304.11
+
+O014         $232.11            $72.25      $159.86
+
+O015          $32.11           $171.00     -$138.89
+
+O016         $532.11            $30.00      $502.11
+
+O017         $632.11            $22.50      $609.61
+
+O018         $732.11            $18.00      $714.11
+
+O019         $932.11            $14.00      $918.11
+
+Order  Quoted Amount Actual Order Cost   Difference
+------ ------------- ----------------- ------------
+
+O020         $120.00            $57.00       $63.00
+
+O021          $60.00            $12.75       $47.25
+
+O022          $80.00            $19.00       $61.00
+
+O023         $100.00            $56.25       $43.75
+
+O024         $200.00           $185.00       $15.00
+
+O025         $112.11            $35.00       $77.11
+
+O026         $122.11            $22.00      $100.11
+
+O027         $182.11            $40.50      $141.61
+
+O028         $172.11            $48.00      $124.11
+
+O029         $162.11             $9.00      $153.11
+
+O030         $122.11            $20.25      $101.86
+
+====================
+22. Show how many meal delivery orders occurred in each month per year, ordered from busiest to least busy
+====================
+
+Month                                Year Total Deliveries
+------------------------------------ ---- ----------------
+July                                 2025                3
+March                                2025                2
+May                                  2025                2
+February                             2025                2
+November                             2025                1
+January                              2025                1
+August                               2025                1
+September                            2025                1
+June                                 2025                1
+April                                2025                1
+====================
+23. Which menu items are ordered for events with bar service, sorted from least to most?
+====================
+
+Dish Name                 Number of Times Ordered
+------------------------- -----------------------
+Korean Beef Bulgogi                             1
+Coconut Pudding                                 1
+Num Ansom                                       1
+Bungeo-ppang                                    1
+Grilled Salmon                                  1
+Pumpkin Curry                                   1
+Chocolate Mousse                                1
+Beef Lasagna                                    1
+Che Ba Mau                                      1
+Vegetable Stir Fry                              1
+Lamb Stew                                       1
+Chicken Alfredo                                 1
+Ethiopian Honey Wine                            1
+Mango Sticky Rice                               1
+Doro Wat                                        2
+====================
+24. How many ingredients does each menu item have?
+====================
+
+Dish Name                 Number of ingredients
+------------------------- ---------------------
+Baklava                                       4
+Banana Fritters                               4
+Beef Biryani                                  5
+Beef Lasagna                                  5
+Beef Pilaf                                    5
+Black Sesame Ice Cream                        4
+Bungeo-ppang                                  3
+Che Ba Mau                                    4
+Chicken Alfredo                               5
+Chicken Biryani                               5
+Chicken Tikka                                 5
+Chocolate Lava Cake                           4
+Chocolate Mousse                              4
+Coconut Pudding                               3
+Coconut Rice Pudding                          4
+Cucumber Lime Refresher                       4
+Doro Wat                                      5
+Ethiopian Honey Wine                          3
+Fish Amok                                     5
+Ginger Iced Tea                               3
+Grilled Salmon                                5
+Gulab Jamun                                   4
+Halewa                                        4
+Hibiscus Tea                                  3
+Kentucky Pork Ribs                            5
+Korean Beef Bulgogi                           5
+Korean Corn Tea                               2
+Lamb Stew                                     5
+Lemon Mint Cooler                             4
+Makgeolli                                     3
+Mango Sticky Rice                             4
+Matcha Cheesecake                             4
+Num Ansom                                     4
+Passion Fruit Soda                            3
+Peach Cobbler                                 4
+Pho                                           5
+Pumpkin Curry                                 5
+
+Dish Name                 Number of ingredients
+------------------------- ---------------------
+Southern Sweet Tea                            3
+Spiced Chai Latte                             4
+Tamarind Juice                                3
+Thai Tea                                      4
+Tlong                                         4
+Vegetable Stir Fry                            5
+Vietnamese Coconut Water                      1
+Vietnamese Iced Coffee                        3
+====================
+25. Which 2025 events with bar service have at least 50 guests?
+====================
+
+Orde Event Type           Venue                          Guest Count Order Dat
+---- -------------------- ------------------------------ ----------- ---------
+O006 Wedding              Lopez Backyard                          50 01-JAN-25
+O001 Wedding              Redwood Park                            80 03-JAN-25
+O008 Birthday             Riverside Park                          75 15-MAR-25
+O011 Wedding              Grizzly Park                           100 03-MAY-25
+O012 Wedding              Yellow Sun Church                       85 03-MAY-25
+====================
+26. Which menu items are more expensive than the average menu item price?
+====================
+
+MENU Dish Name                     Price
+---- ------------------------- ---------
+M006 Doro Wat                     $18.50
+M002 Grilled Salmon               $17.25
+M011 Korean Beef Bulgogi          $15.25
+M013 Beef Biryani                 $14.50
+M004 Lamb Stew                    $14.00
+M008 Pumpkin Curry                $14.00
+M012 Chicken Biryani              $13.75
+M001 Beef Lasagna                 $13.50
+M005 Chicken Alfredo              $12.50
+M014 Beef Pilaf                   $12.25
+M007 Fish Amok                    $12.00
+M010 Kentucky Pork Ribs           $11.25
+M015 Chicken Tikka                $11.00
+M003 Vegetable Stir Fry           $10.75
+M026 Ethiopian Honey Wine          $9.50
+M009 Pho                           $9.50
+M017 Num Ansom                     $9.00
+M018 Mango Sticky Rice             $8.25
+====================
+27. How many deliveries are scheduled per day?
+====================
+
+Delivery  # of Orders
+--------- -----------
+15-APR-25           1
+26-FEB-25           1
+10-MAY-25           1
+07-JAN-25           1
+12-MAY-25           1
+05-MAR-25           1
+28-JUL-25           1
+12-JUN-25           1
+21-AUG-25           1
+09-NOV-25           1
+08-MAR-25           1
+10-SEP-25           1
+13-FEB-25           1
+18-JUL-25           1
+14-JUL-25           1
+====================
+28. How many items does each meal delivery have?
+====================
+
+Order  Ingredients Count
+------ -----------------
+O016                   1
+
+O025                   1
+
+O018                   1
+
+O026                   1
+
+O030                   1
+
+O021                   1
+
+O023                   1
+
+O024                   1
+
+O029                   1
+
+O019                   1
+
+O020                   1
+
+O027                   1
+
+O028                   1
+
+O022                   1
+
+O017                   1
+

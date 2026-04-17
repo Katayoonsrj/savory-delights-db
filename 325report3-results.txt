@@ -1,0 +1,37 @@
+
+                                             Savory Delights: Equipment Status Report
+EQUIPMENT ITEM               ID     QTY STATUS
+---------------------------- ---- ----- --------------
+Serving Trays                EQ01    50 AVAILABLE
+
+Coolers                      EQ02    15 OVERDUE
+
+Portable Stoves              EQ03     8 OVERDUE
+
+Lighting Equipment           EQ04    12 AVAILABLE
+
+Plates                       EQ05   400 OVERDUE
+
+Chairs                       EQ06   100 OVERDUE
+
+Tables                       EQ07    20 OVERDUE
+
+Tents                        EQ08     5 AVAILABLE
+
+Warmers                      EQ09    10 AVAILABLE
+
+Glassware                    EQ10   200 AVAILABLE
+
+Silverware Sets              EQ11   400 AVAILABLE
+
+Cooking Utensils             EQ12    40 AVAILABLE
+
+Tinfoil                      EQ13   500 AVAILABLE
+
+Grill                        EQ14     6 AVAILABLE
+
+Flat-Top Grill               EQ15     3 AVAILABLE
+
+
+15 rows selected.
+

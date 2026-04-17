@@ -1,0 +1,158 @@
+
+Savory Delights: Menu by Cuisine
+CUISINE_TYPE     Dish Name                 Description                         Allergens                      Dietary Restrictions               Price
+---------------- ------------------------- ----------------------------------- ------------------------------ ------------------------------ ---------
+Cambodian        Fish Amok                 Steamed white fish curry in banana  coconut, fish                  gluten-free, pescatarian          $12.00
+                                           leaves
+
+                 Num Ansom                 Cambodian sticky rice cake wrapped                                 contains-meat, gluten-free         $9.00
+                                           in banana leaves
+
+                 Tlong                     Cambodian iced drink with basil                                    gluten-free, vegan                 $3.75
+                                           seeds and syrup
+
+
+Central European Lamb Stew                 Slow-cooked lamb with potatoes,                                    gluten-free                       $14.00
+                                           carrots, and herbs
+
+
+Ethiopian        Doro Wat                  Spiced Ethiopian chicken stew       gluten                         contains-dairy, gluten            $18.50
+                                           served with injera
+
+                 Ethiopian Honey Wine      Traditional honey-fermented wine                                   contains-alcohol, gluten-free,     $9.50
+                                                                                                               vegan
+
+                 Halewa                    Dense sesame candy made with tahini sesame                         gluten-free, vegan                 $7.50
+                                           and sugar
+
+
+French           Grilled Salmon            Fresh salmon fillet grilled and     dairy, fish                    gluten-free, pescatarian          $17.25
+                                           served with lemon butter sauce
+
+                 Chocolate Lava Cake       Warm chocolate cake with a molten   chocolate, dairy, gluten       contains-dairy, gluten             $6.75
+                                           center served with vanilla drizzle
+
+                 Chocolate Mousse          Light and airy chocolate dessert    chocolate, dairy, eggs         contains-dairy, gluten             $6.25
+                                           topped with whipped cream
+
+                 Spiced Chai Latte         Creamy tea made with aromatic chai  dairy                          contains-dairy, gluten-free        $4.50
+                                           spices
+
+
+Greek            Baklava                   Flaky dessert layered with nuts and dairy, gluten, nuts            contains-dairy, gluten             $7.00
+                                           honey syrup
+
+
+Italian          Beef Lasagna              Layered pasta with seasoned beef,   dairy, gluten                  contains-dairy, gluten            $13.50
+                                           ricotta, and marinara sauce
+
+                 Chicken Alfredo           Creamy Alfredo pasta topped with    dairy, gluten                  Gluten, contains-dairy            $12.50
+                                           grilled chicken
+
+
+Korean           Korean Beef Bulgogi       Sweet and savory marinated beef     sesame, soy                    gluten-free                       $15.25
+                                           grilled and served with rice
+
+                 Matcha Cheesecake         Rich cheesecake infused with        dairy, gluten                  contains-dairy, gluten             $7.25
+                                           Japanese matcha and a graham crust
+
+                 Makgeolli                 Korean rice wine with a lightly                                    contains-alcohol, vegan            $6.00
+                                           sparkling finish
+
+Savory Delights: Menu by Cuisine
+CUISINE_TYPE     Dish Name                 Description                         Allergens                      Dietary Restrictions               Price
+---------------- ------------------------- ----------------------------------- ------------------------------ ------------------------------ ---------
+
+Korean           Black Sesame Ice Cream    Creamy ice cream made with roasted  dairy, sesame                  contains-dairy, gluten             $5.75
+                                           black sesame for a rich, nutty
+                                           flavor
+
+                 Bungeo-ppang              Korean fish-shaped pastry filled    gluten                         gluten, vegan                      $4.25
+                                           with sweet red bean
+
+                 Korean Corn Tea           Light roasted corn-infused tea                                     gluten-free, vegan                 $2.75
+                                           served cold
+
+
+North Indian     Beef Biryani              Traditional spiced rice dish cooked                                gluten                            $14.50
+                                           with marinated beef
+
+                 Chicken Biryani           Fragrant basmati rice with spiced   dairy                          contains-dairy, gluten            $13.75
+                                           chicken and herbs
+
+                 Beef Pilaf                Rice pilaf with tender beef,        dairy                          gluten                            $12.25
+                                           onions, and mild spices
+
+                 Chicken Tikka             Char-grilled marinated chicken with dairy                          gluten                            $11.00
+                                           aromatic spices
+
+                 Gulab Jamun               Soft fried milk dough balls soaked  dairy, gluten                  contains-dairy, gluten             $4.50
+                                           in warm cardamom syrup
+
+
+Southern US      Kentucky Pork Ribs        Slow-smoked pork ribs with a                                       gluten-free                       $11.25
+                                           seasoned rub
+
+                 Peach Cobbler             Warm peach filling baked with a     dairy, gluten                  contains-dairy, gluten             $5.50
+                                           buttery crust
+
+                 Southern Sweet Tea        Classic chilled black tea sweetened                                gluten-free, vegan                 $2.50
+                                           generously
+
+
+Thai             Pumpkin Curry             Aromatic pumpkin curry served with  coconut                        gluten-free, vegan                $14.00
+                                           jasmine rice
+
+                 Vegetable Stir Fry        Mixed seasonal vegetables sauteed   sesame, soy                    gluten-free, vegan                $10.75
+                                           in a savory soy glaze
+
+                 Mango Sticky Rice         Sweet coconut sticky rice served    coconut                        gluten-free, vegan                 $8.25
+                                           with ripe mango
+
+                 Coconut Rice Pudding      Slow-cooked creamy rice pudding     coconut, dairy                 contains-dairy, gluten-free        $6.00
+                                           with coconut milk and vanilla
+
+                 Coconut Pudding           Smooth coconut custard served       coconut                        gluten-free, vegan                 $5.75
+                                           chilled
+
+                 Banana Fritters           Crispy fried banana slices drizzled gluten, sesame                 gluten, vegan                      $5.00
+                                           with honey and sesame seeds
+
+
+Savory Delights: Menu by Cuisine
+CUISINE_TYPE     Dish Name                 Description                         Allergens                      Dietary Restrictions               Price
+---------------- ------------------------- ----------------------------------- ------------------------------ ------------------------------ ---------
+Thai             Thai Tea                  Sweet black tea with spices and     dairy                          contains-dairy, gluten-free        $4.25
+                                           condensed milk
+
+                 Passion Fruit Soda        Sparkling beverage with passion                                    gluten-free, vegan                 $4.00
+                                           fruit flavor
+
+                 Ginger Iced Tea           Chilled black tea infused with                                     gluten-free, vegan                 $3.75
+                                           fresh ginger
+
+                 Cucumber Lime Refresher   Cool drink made with cucumber,                                     gluten-free, vegan                 $3.50
+                                           lime, and a touch of sugar
+
+                 Lemon Mint Cooler         Refreshing lemonade blended with                                   gluten-free, vegan                 $3.50
+                                           mint leaves
+
+                 Tamarind Juice            Sweet and tangy tamarind beverage                                  gluten-free, vegan                 $3.50
+                 Hibiscus Tea              Bright red herbal tea with floral                                  gluten-free, vegan                 $3.25
+                                           notes
+
+
+Vietnamese       Pho                       Vietnamese beef noodle soup with                                   gluten-free                        $9.50
+                                           herbs
+
+                 Che Ba Mau                Vietnamese three-color dessert with coconut                        gluten-free, vegan                 $6.75
+                                           beans and jelly
+
+                 Vietnamese Iced Coffee    Strong coffee brewed with sweetened dairy                          contains-dairy, gluten-free        $4.75
+                                           condensed milk
+
+                 Vietnamese Coconut Water  Fresh coconut water served chilled  coconut                        gluten-free, vegan                 $3.50
+
+
+45 rows selected.
+

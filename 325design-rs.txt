@@ -1,0 +1,101 @@
+﻿Maxine Mota 
+Katayoon Seraji Nezhad
+CS 325 Fall 2025
+12-11-2025
+========================================
+client(CLIENT_ID, cli_fname, cli_lname, cli_address, cli_phone, payment_method, diet_restrictions)
+
+client_allergies(CLIENT_ID, ALLERGEN_TAG)
+  foreign key (CLIENT_ID) references client
+
+orders(ORDER_ID, client_id, delivery_date, order_address, order_type, order_date, order_quote, actual_cost, payment_status, order_size)
+  foreign key (CLIENT_ID) references client
+
+package(ORDER_ID, event_venue, event_type, guest_count, staff_count, bar_service, full_service)
+  foreign key (ORDER_ID) references orders
+
+meal_delivery(ORDER_ID, delivery_time, delivery_fee)
+  foreign key (ORDER_ID) references orders
+
+order_items(ORDER_ID, MENU_ID, quantity)
+  foreign key (ORDER_ID) references orders
+  foreign key (MENU_ID) references menu_item
+
+event_staff(STAFF_ID, job_title, staff_fname, staff_lname, hire_date)
+other_staff(STAFF_ID, hourly_rate)
+  foreign key (STAFF_ID) references event_staff
+
+chefs(STAFF_ID, salary, client_rating)
+  foreign key (STAFF_ID) references event_staff
+
+cuisines(CUISINE_ID, cuisine_type)
+chef_cuisines(STAFF_ID, CUISINE_ID)
+  foreign key (STAFF_ID) references chefs
+  foreign key (CUISINE_ID) references cuisines
+
+certifications(CERT_ID, certification_name)
+
+employee_certifications(CERT_ID, STAFF_ID, issue_date, expiration_date)
+  foreign key (CERT_ID) references certifications
+  foreign key (STAFF_ID) references event_staff
+
+work_assignment(ORDER_ID, STAFF_ID)
+  foreign key (ORDER_ID) references orders
+  foreign key (STAFF_ID) references event_staff
+
+menu_item(MENU_ID, dish_name, price, description)
+
+item_cuisine(MENU_ID, CUISINE_ID)
+  foreign key (MENU_ID) references menu_item
+  foreign key (CUISINE_ID) references cuisines
+
+menu_item_ingredient(MENU_ID, INGREDIENT)
+  foreign key (MENU_ID) references menu_item
+
+menu_item_dietary_tags(MENU_ID, DIETARY_TAG)
+  foreign key (MENU_ID) references menu_item
+
+menu_item_allergen_tags(MENU_ID, ALLERGEN_TAG)
+  foreign key (MENU_ID) references menu_item
+
+main_course(MENU_ID, preparation_time, spice_level)
+  foreign key (MENU_ID) references menu_item
+
+dessert(MENU_ID, sweetness_level, contains_dairy)
+  foreign key (MENU_ID) references menu_item
+
+beverage(MENU_ID, temperature, alcohol_content)
+  foreign key (MENU_ID) references menu_item
+
+supply_order(SUPPLY_ORDER_ID,SUPPLIER_ID, order_date, delivery_date, payment_status, STAFF_ID)
+	foreign key (STAFF_ID) references event_staff
+	foreign key (SUPPLIER_ID) references supplier
+
+supply_order_item(SUPPLY_ORDER_ID, INGREDIENT_NAME)
+  foreign key (SUPPLY_ORDER_ID) references supply_order
+
+supplier(SUPPLIER_ID, supplier_name, supplier_phone, supplier_email, supplier_address, supplier_type)
+	
+local_farmer(SUPPLIER_ID, farm_items, farm_region)
+  foreign key (SUPPLIER_ID) references supplier
+
+other_supplier(SUPPLIER_ID, supply_items, supplier_city)
+  foreign key (SUPPLIER_ID) references supplier
+
+cars(CAR_ID, license_plate_num, car_type)
+car_allowed_uses(CAR_ID, use_type)
+  foreign key (CAR_ID) references cars
+
+car_registration(CAR_ID, expiration_date)
+  foreign key (CAR_ID) references cars
+
+equipment(EQUIPMENT_ID, equipment_type, quantity, purchase_date)
+
+equipment_assignment(EQUIPMENT_ID, ORDER_ID, date_used, date_returned)
+  foreign key (EQUIPMENT_ID) references equipment
+  foreign key (ORDER_ID) references orders
+
+car_assignment(CAR_ID, ORDER_ID, date_used, date_returned)
+    foreign key (CAR_ID) references cars
+    foreign key (ORDER_ID) references orders
+

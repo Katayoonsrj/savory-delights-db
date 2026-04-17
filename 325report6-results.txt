@@ -1,0 +1,34 @@
+
+Savory Delights: Staff Assignments for Package Events
+Order  Event Type         Order Type Guests Staff Role   Staff Count
+------ ------------------ ---------- ------ ------------ -----------
+O006   Wedding            Package        50 Bartender              1
+                                            Chef                   1
+                                            Driver                 1
+****** ****************** ********** ******              -----------
+Total                                                              3
+
+O007   Corporate Lunch    Package        40 Chef                   1
+                                            Driver                 1
+****** ****************** ********** ******              -----------
+Total                                                              2
+
+O008   Birthday           Package        75 Bartender              1
+                                            Chef                   1
+                                            Driver                 1
+****** ****************** ********** ******              -----------
+Total                                                              3
+
+O009   Fundraiser         Package        30 Chef                   1
+                                            Driver                 1
+****** ****************** ********** ******              -----------
+Total                                                              2
+
+O010   Retreat            Package        25 Chef                   1
+                                            Driver                 1
+****** ****************** ********** ******              -----------
+Total                                                              2
+
+
+12 rows selected.
+

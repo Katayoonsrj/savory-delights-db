@@ -1,0 +1,44 @@
+
+Savory Delights: Staff Roster and Information
+ROLE         EMPLOYEE NAME              WORK AREA          PAY TYPE   PAY AMOUNT HIRED ON    STAFF ID
+------------ -------------------------- ------------------ -------- ------------ ----------- --------
+Bartender    Diaz, Jane                 Bar Service        Hourly         $25.00 2022-11-05  S010
+             Mitchell, Grace            Bar Service        Hourly         $17.00 2023-02-17  S005
+             Oyanagi, Jordan            Bar Service        Hourly         $18.00 2019-12-04  S014
+
+Chef         Arbuckle, Jonathan         Kitchen / Events   Salary     $55,000.00 2021-02-18  S016
+             Bearimy, Jeremy            Kitchen / Events   Salary     $55,000.00 2020-10-09  S017
+             Coleman, Grace             Kitchen / Events   Salary     $55,000.00 2022-06-01  S023
+             Coleman, Pearce            Kitchen / Events   Salary     $55,000.00 2022-02-28  S022
+             Doberville, Derrell        Kitchen / Events   Salary     $55,000.00 2024-09-03  S025
+             Harrell, Tomomi            Kitchen / Events   Salary     $55,000.00 2023-03-28  S027
+             Merricks, Jessie           Kitchen / Events   Salary     $55,000.00 2022-10-17  S012
+             Nelson, Liam               Kitchen / Events   Salary     $60,000.00 2023-01-01  S020
+             Nelson, Mark               Kitchen / Events   Salary     $55,000.00 2023-10-14  S026
+             Nguyen, Lena               Kitchen / Events   Salary     $65,000.00 2020-01-10  S006
+             Shatner, Will              Kitchen / Events   Salary     $50,000.00 2022-04-21  S021
+             Smith, Louise              Kitchen / Events   Salary     $55,000.00 2023-06-17  S028
+             Thompson, Ava              Kitchen / Events   Salary     $55,000.00 2020-11-30  S003
+             Underhill, Morgan          Kitchen / Events   Salary     $55,000.00 2023-05-16  S019
+             Worthe, Charles            Kitchen / Events   Salary     $55,000.00 2022-08-13  S018
+
+Driver       Bautista, August           Deliveries         Hourly         $21.00 2022-06-30  S015
+             Harris, Mason              Deliveries         Hourly         $17.00 2022-08-05  S004
+             Perez, Nino                Deliveries         Unknown               2020-01-01  S031
+             Rahmani, Farhad            Deliveries         Hourly         $32.00 2023-04-05  S013
+             Singh, Priya               Deliveries         Hourly         $17.00 2021-06-01  S008
+             Song, Aria                 Deliveries         Hourly         $26.00 2022-09-26  S029
+             Wright, Jacob              Deliveries         Hourly         $20.00 2019-07-22  S002
+
+KitchenMgr   Garcia, Owen               Kitchen / Events   Hourly         $30.00 2020-09-20  S009
+
+Owner        Hernandez, Jamal           Management         Hourly         $50.00 2019-12-01  S007
+
+Server       Anderson, Margaret         Event Service      Hourly         $30.00 2024-03-25  S011
+             Butterworth, Frank         Event Service      Hourly         $18.00 2025-05-23  S030
+             Carter, Emily              Event Service      Hourly         $15.00 2021-03-14  S001
+             Smithson, Chris            Event Service      Hourly         $20.00 2022-11-12  S024
+
+
+31 rows selected.
+

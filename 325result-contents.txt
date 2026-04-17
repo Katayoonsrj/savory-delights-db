@@ -1,0 +1,1861 @@
+=========
+client table
+=========
+
+CLIE CLI_FNAME            CLI_LNAME                      CLI_PHONE
+---- -------------------- ------------------------------ ----------
+CLI_ADDRESS                                                                                          PAYMENT_METHOD
+---------------------------------------------------------------------------------------------------- ---------------
+DIET_RESTRICTIONS
+------------------------------
+C001 Emily                Johnson                        7072048245
+221 Pine St, Arcata, CA                                                                              Credit Card
+Vegetarian
+
+C002 James                Miller                         7076395628
+14 Redwood Ave, Eureka, CA                                                                           Debit Card
+Gluten-Free
+
+C003 Olivia               Brown                          7075274659
+309 Bayside Rd, Bayside, CA                                                                          Cash
+Vegan
+
+C004 Ethan                Davis                          7074552847
+88 Campus Ln, Arcata, CA                                                                             Mobile Pay
+None
+
+C005 Chloe                Wilson                         7077557231
+502 Sunset Dr, Trinidad, CA                                                                          Credit Card
+Halal
+
+C006 Alice                Lopez                          7074882641
+123 Maple St, Fortuna, CA                                                                            Card
+Vegan
+
+C007 Brian                Chen                           7073865623
+45 Dogwood Ave, Mckinleyville, CA                                                                    Cash
+None
+
+C008 Dana                 Patel                          7076488274
+789 Pine Rd, King Salmon, CA                                                                         Card
+Gluten-Free
+
+C009 Evan                 Torres                         7078246274
+
+CLIE CLI_FNAME            CLI_LNAME                      CLI_PHONE
+---- -------------------- ------------------------------ ----------
+CLI_ADDRESS                                                                                          PAYMENT_METHOD
+---------------------------------------------------------------------------------------------------- ---------------
+DIET_RESTRICTIONS
+------------------------------
+12 Cedar Ln, Weott, CA                                                                               Card
+Nut-Free
+
+C010 Alana                Burghes                        7076284623
+301 Lupin Ave, Arcata, CA                                                                            Mobile Pay
+None
+
+C011 Miah                 Foster                         7077255482
+370 Alder St, Eureka, CA                                                                             Credit Card
+Gluten-Free
+
+C012 Jane                 Flores                         7078436274
+248 Lily Ln, Bayside, CA                                                                             Cash
+Gluten-Free
+
+C013 Dawud                Sharif                         7070237589
+70 Prairie Ln, Kneeland, CA                                                                          Debit Card
+Halal
+
+C014 Chester              MacGuff                        7072305728
+608 Stone Ln, Trinidad, CA                                                                           Credit Card
+Vegetarian
+
+C015 Konrad               Hastilow                       7075338658
+7 Sunset Ct, Orick, CA                                                                               Cash
+Nut-Free
+
+=========
+client_allergies table
+=========
+
+CLIE ALLERGEN_TAG
+---- ------------------------------
+C002 Dairy
+C002 Gluten
+C005 Nuts
+C005 Shrimp
+C006 Eggs
+C006 Shellfish
+C006 Shrimp
+C008 Gluten
+C009 Almonds
+C011 Eggs
+C011 Gluten
+C012 Gluten
+C013 Garlic
+C013 Onions
+C015 Peanuts
+=========
+orders
+=========
+
+Order  CLIE DELIVERY_
+------ ---- ---------
+ORDER_ADDRESS                                                                                        Order Type
+---------------------------------------------------------------------------------------------------- ----------
+ORDER_DAT Quoted Amount ACTUAL_COST PAYMENT_STAT ORDER_SIZE
+--------- ------------- ----------- ------------ ----------
+O001   C001 03-JAN-25
+444 Green St, Redcrest, CA                                                                           Package
+03-JAN-25     $1,220.00         135 Paid                 55
+
+
+O002   C002 04-JAN-25
+1233 Red St, Fortuna, CA                                                                             Package
+04-JAN-25     $1,231.00       172.5 Paid                 56
+
+
+O003   C003 06-JAN-25
+123 Blue St, Fortuna, CA                                                                             Package
+06-JAN-25     $1,235.00       107.5 Paid                 57
+
+
+O004   C004 09-JAN-25
+443 Orange St, Fortuna, CA                                                                           Package
+12-JAN-25     $1,246.00         140 Paid                 33
+
+
+O005   C005 13-JAN-25
+3123 Yellow St, Fortuna, CA                                                                          Package
+13-JAN-25     $1,242.00         125 Paid                 32
+
+
+O006   C006 15-JAN-25
+1243 Purple St, Fortuna, CA                                                                          Package
+01-JAN-25     $1,200.00       867.5 Paid                 50
+
+
+O007   C007 05-MAR-25
+2344 First St, Manila, CA                                                                            Package
+20-FEB-25       $900.00         710 Pending              40
+
+Order  CLIE DELIVERY_
+------ ---- ---------
+ORDER_ADDRESS                                                                                        Order Type
+---------------------------------------------------------------------------------------------------- ----------
+ORDER_DAT Quoted Amount ACTUAL_COST PAYMENT_STAT ORDER_SIZE
+--------- ------------- ----------- ------------ ----------
+
+
+O008   C008 03-APR-25
+3451 Redwood Lane, Blue Lake, CA                                                                     Package
+15-MAR-25     $1,500.00        1405 Deposit              75
+
+
+O009   C009 01-OCT-23
+4752 Cedar Way, Orick, CA                                                                            Package
+15-SEP-23     $1,500.00      618.75 Deposit              75
+
+
+O010   C010 01-NOV-22
+494 Bluebird Ave, Fortuna, CA                                                                        Package
+01-OCT-22     $1,500.00         480 Deposit              75
+
+
+O011   C011 03-MAY-25
+1243 Purple St, Fortuna, CA                                                                          Package
+03-MAY-25        $32.11          90 Pending              44
+
+
+O012   C012 05-MAY-25
+1243 Purple St, Fortuna, CA                                                                          Package
+03-MAY-25       $321.11      123.75 Pending              45
+
+
+O013   C013 08-MAY-25
+1243 Purple St, Fortuna, CA                                                                          Package
+08-MAY-25       $412.11         108 Pending              20
+
+
+O014   C014 12-MAY-25
+
+Order  CLIE DELIVERY_
+------ ---- ---------
+ORDER_ADDRESS                                                                                        Order Type
+---------------------------------------------------------------------------------------------------- ----------
+ORDER_DAT Quoted Amount ACTUAL_COST PAYMENT_STAT ORDER_SIZE
+--------- ------------- ----------- ------------ ----------
+1243 Purple St, Fortuna, CA                                                                          Package
+13-MAY-25       $232.11       72.25 Pending              21
+
+
+O015   C015 16-MAY-25
+1243 Purple St, Eureka, CA                                                                           Package
+16-MAY-25        $32.11         171 Pending              22
+
+
+O016   C012 15-APR-25
+248 Lily Ln, Bayside, CA                                                                             Delivery
+15-APR-25       $532.11          30 Pending               9
+
+
+O017   C013 12-JUN-25
+70 Prairie Ln, Kneeland, CA                                                                          Delivery
+20-MAY-25       $632.11        22.5 Pending               8
+
+
+O018   C014 07-JAN-25
+608 Stone Ln, Trinidad, CA                                                                           Delivery
+07-JAN-25       $732.11          18 Pending               7
+
+
+O019   C011 21-AUG-25
+370 Alder St, Eureka, CA                                                                             Delivery
+21-AUG-25       $932.11          14 Pending               6
+
+
+O020   C006 05-MAR-25
+123 Maple St, Fortuna, CA                                                                            Delivery
+01-MAR-25       $120.00          57 Paid                  6
+
+
+Order  CLIE DELIVERY_
+------ ---- ---------
+ORDER_ADDRESS                                                                                        Order Type
+---------------------------------------------------------------------------------------------------- ----------
+ORDER_DAT Quoted Amount ACTUAL_COST PAYMENT_STAT ORDER_SIZE
+--------- ------------- ----------- ------------ ----------
+
+O021   C007 10-MAY-25
+45 Oak Ave Apt 2, Ferndale, CA                                                                       Delivery
+25-APR-25        $60.00       12.75 Paid                  3
+
+
+O022   C008 10-SEP-25
+City Hall, 2nd Floor, Eureka, CA                                                                     Delivery
+01-SEP-25        $80.00          19 Paid                  4
+
+
+O023   C009 13-FEB-25
+12 Cedar Ln, Fortuna, CA                                                                             Delivery
+01-FEB-25       $100.00       56.25 Paid                  5
+
+
+O024   C010 18-JUL-25
+Redwood Park Pavilion, Arcata, CA                                                                    Delivery
+01-JUL-25       $200.00         185 Paid                 10
+
+
+O025   C001 14-JUL-25
+221 Pine St, Arcata, CA                                                                              Delivery
+14-JUL-25       $112.11          35 Pending               4
+
+
+O026   C002 26-FEB-25
+14 Redwood Ave, Eureka, CA                                                                           Delivery
+26-FEB-25       $122.11          22 Paid                  2
+
+
+O027   C003 09-NOV-25
+309 Bayside Rd, Bayside, CA                                                                          Delivery
+
+Order  CLIE DELIVERY_
+------ ---- ---------
+ORDER_ADDRESS                                                                                        Order Type
+---------------------------------------------------------------------------------------------------- ----------
+ORDER_DAT Quoted Amount ACTUAL_COST PAYMENT_STAT ORDER_SIZE
+--------- ------------- ----------- ------------ ----------
+09-NOV-25       $182.11        40.5 Paid                  4
+
+
+O028   C004 12-MAY-25
+88 Campus Ln, Arcata, CA                                                                             Delivery
+12-MAY-25       $172.11          48 Paid                  5
+
+
+O029   C005 08-MAR-25
+502 Sunset Dr, Trinidad, CA                                                                          Delivery
+08-MAR-25       $162.11           9 Paid                  6
+
+
+O030   C006 28-JUL-25
+123 Maple St, Fortuna, CA                                                                            Delivery
+28-JUL-25       $122.11       20.25 Paid                  7
+
+
+=========
+package
+=========
+
+Order  EVENT_VENUE                    Event Type         Guests Staff Count B F
+------ ------------------------------ ------------------ ------ ----------- - -
+O001   Redwood Park                   Wedding                80           5 Y Y
+******                                ****************** ****** -----------
+Total                                                                     5
+
+O002   Richardson Park                Corporate Lunch        12           2 Y Y
+******                                ****************** ****** -----------
+Total                                                                     2
+
+O003   Community Center               Athletics Banquet      32           2 Y Y
+******                                ****************** ****** -----------
+Total                                                                     2
+
+O004   Redwood Park                   Birthday               13           2 Y Y
+******                                ****************** ****** -----------
+Total                                                                     2
+
+O005   Westwood Park                  Baby Shower            14           3 Y Y
+******                                ****************** ****** -----------
+Total                                                                     3
+
+O006   Lopez Backyard                 Wedding                50           6 Y Y
+******                                ****************** ****** -----------
+Total                                                                     6
+
+O007   City Hall                      Corporate Lunch        40           5 N Y
+******                                ****************** ****** -----------
+Total                                                                     5
+
+O008   Riverside Park                 Birthday               75           8 Y Y
+******                                ****************** ****** -----------
+Total                                                                     8
+
+O009   Community Center               Fundraiser             30           4 N Y
+******                                ****************** ****** -----------
+Total                                                                     4
+
+O010   Company HQ                     Retreat                25           3 N N
+
+Order  EVENT_VENUE                    Event Type         Guests Staff Count B F
+------ ------------------------------ ------------------ ------ ----------- - -
+******                                ****************** ****** -----------
+Total                                                                     3
+
+O011   Grizzly Park                   Wedding               100           4 Y Y
+******                                ****************** ****** -----------
+Total                                                                     4
+
+O012   Yellow Sun Church              Wedding                85           4 Y Y
+******                                ****************** ****** -----------
+Total                                                                     4
+
+O013   Blue Park                      Baby Shower            25           4 Y Y
+******                                ****************** ****** -----------
+Total                                                                     4
+
+O014   Redwood Acres                  Elderly Dinner         12           2 Y Y
+******                                ****************** ****** -----------
+Total                                                                     2
+
+O015   Samoa Cookhouse                Wedding                23           5 Y Y
+******                                ****************** ****** -----------
+Total                                                                     5
+
+=========
+meal_delivery
+=========
+
+Order  DELIVERY_ DELIVERY_FEE
+------ --------- ------------
+O016   15-APR-25            5
+
+O017   12-JUN-25            5
+
+O018   07-JAN-25            5
+
+O019   21-AUG-25            5
+
+O020   05-MAR-25            5
+
+O021   10-MAY-25           10
+
+O022   10-SEP-25            5
+
+O023   13-FEB-25           20
+
+O024   18-JUL-25           50
+
+O025   14-JUL-25            5
+
+O026   26-FEB-25            5
+
+O027   09-NOV-25            5
+
+O028   12-MAY-25            5
+
+O029   08-MAR-25            5
+
+O030   28-JUL-25            5
+
+=========
+order_items
+=========
+
+Order  MENU   QTY
+------ ---- -----
+O001   M001    10
+
+O002   M002    10
+
+O003   M003    10
+
+O004   M004    10
+
+O005   M005    10
+
+O006   M006    20
+       M008    15
+       M022    50
+
+O007   M007    20
+       M009    20
+       M024    40
+
+O008   M006    30
+       M011    25
+       M023    75
+
+O009   M010    25
+       M020    30
+       M025    30
+
+O010   M011    20
+       M024    25
+
+O011   M017    10
+
+O012   M018    15
+
+O013   M019    16
+
+O014   M021    17
+
+
+Order  MENU   QTY
+------ ---- -----
+O015   M026    18
+
+O016   M027     8
+
+O017   M030     9
+
+O018   M031     3
+
+O019   M032     4
+
+O020   M009     6
+
+O021   M028     3
+
+O022   M029     4
+
+O023   M010     5
+
+O024   M006    10
+
+O025   M038    10
+
+O026   M039     8
+
+O027   M040     9
+
+O028   M041     8
+
+O029   M042     2
+
+O030   M043     3
+
+=========
+event_staff
+=========
+
+STAFF ID Staff Role   STAFF_FNAME          STAFF_LNAME                    HIRE_DATE
+-------- ------------ -------------------- ------------------------------ ---------
+S001     Server       Emily                Carter                         14-MAR-21
+S002     Driver       Jacob                Wright                         22-JUL-19
+S003     Chef         Ava                  Thompson                       30-NOV-20
+S004     Driver       Mason                Harris                         05-AUG-22
+S005     Bartender    Grace                Mitchell                       17-FEB-23
+S006     Chef         Lena                 Nguyen                         10-JAN-20
+S007     Owner        Jamal                Hernandez                      01-DEC-19
+S008     Driver       Priya                Singh                          01-JUN-21
+S009     KitchenMgr   Owen                 Garcia                         20-SEP-20
+S010     Bartender    Jane                 Diaz                           05-NOV-22
+S011     Server       Margaret             Anderson                       25-MAR-24
+S012     Chef         Jessie               Merricks                       17-OCT-22
+S013     Driver       Farhad               Rahmani                        05-APR-23
+S014     Bartender    Jordan               Oyanagi                        04-DEC-19
+S015     Driver       August               Bautista                       30-JUN-22
+S016     Chef         Jonathan             Arbuckle                       18-FEB-21
+S017     Chef         Jeremy               Bearimy                        09-OCT-20
+S018     Chef         Charles              Worthe                         13-AUG-22
+S019     Chef         Morgan               Underhill                      16-MAY-23
+S020     Chef         Liam                 Nelson                         01-JAN-23
+S021     Chef         Will                 Shatner                        21-APR-22
+S022     Chef         Pearce               Coleman                        28-FEB-22
+S023     Chef         Grace                Coleman                        01-JUN-22
+S024     Server       Chris                Smithson                       12-NOV-22
+S025     Chef         Derrell              Doberville                     03-SEP-24
+S026     Chef         Mark                 Nelson                         14-OCT-23
+S027     Chef         Tomomi               Harrell                        28-MAR-23
+S028     Chef         Louise               Smith                          17-JUN-23
+S029     Driver       Aria                 Song                           26-SEP-22
+S030     Server       Frank                Butterworth                    23-MAY-25
+S031     Driver       Nino                 Perez                          01-JAN-20
+=========
+other_staff
+=========
+
+STAFF ID HOURLY_RATE
+-------- -----------
+S001              15
+S002              20
+S004              17
+S005              17
+S007              50
+S008              17
+S009              30
+S010              25
+S011              30
+S013              32
+S014              18
+S015              21
+S024              20
+S029              26
+S030              18
+=========
+chefs
+=========
+
+STAFF ID     SALARY CLIENT_RATING
+-------- ---------- -------------
+S003          55000             5
+S006          65000             4
+S012          55000             5
+S016          55000             3
+S017          55000             5
+S018          55000             5
+S019          55000             5
+S020          60000             3
+S021          50000             4
+S022          55000             5
+S023          55000             5
+S025          55000             3
+S026          55000             5
+S027          55000             4
+S028          55000             5
+=========
+cuisines
+=========
+
+CUIS CUISINE_TYPE
+---- ----------------
+CU01 Mexican
+CU02 Italian
+CU03 Persian
+CU04 Greek
+CU05 Caribbean
+CU06 Ethiopian
+CU07 Cambodian
+CU08 Thai
+CU09 Vietnamese
+CU10 Southern US
+CU11 North Indian
+CU12 South Indian
+CU13 French
+CU14 North African
+CU15 Central European
+CU20 Korean
+=========
+chef_cuisines
+=========
+
+STAFF ID CUIS
+-------- ----
+S003     CU02
+S003     CU09
+S006     CU01
+S012     CU10
+S012     CU11
+S012     CU12
+S016     CU07
+S017     CU02
+S017     CU13
+S018     CU20
+S019     CU06
+S019     CU08
+S020     CU07
+S020     CU09
+S021     CU01
+S021     CU15
+S022     CU04
+S023     CU11
+S023     CU12
+S025     CU05
+S025     CU15
+S026     CU08
+S027     CU06
+S027     CU20
+S028     CU02
+S028     CU03
+S028     CU13
+=========
+certifications
+=========
+
+CERT CERTIFICATION_NAME
+---- --------------------------------------------------
+CE01 Food Handler Certification
+CE02 Certified Caterer License
+CE03 Food Allergy & Safety Training
+CE04 Event Coordinator Certificate
+CE05 Food Delivery Safety Training
+CE06 City Business License
+CE07 Restaurant Safety Certification
+CE08 Alcohol Server Certification
+CE09 Kitchen Manager Certification
+CE10 Driver Safety
+CE11 Forklift Certification
+CE12 Alcohol Beverage Certification
+CE13 CPR Certification
+CE14 First Aid Certification
+CE15 Class B Drivers License
+=========
+employee_certifications
+=========
+
+CERT STAFF ID ISSUE_DAT EXPIRATIO
+---- -------- --------- ---------
+CE01 S001     14-MAR-21 14-MAR-24
+CE03 S001     01-MAY-22 01-MAY-25
+CE10 S002     22-JUL-19 22-JUL-24
+CE05 S002     01-JAN-20 01-JAN-25
+CE01 S003     30-NOV-20 30-NOV-23
+CE07 S003     01-FEB-21 01-FEB-24
+CE03 S003     01-FEB-22 01-FEB-25
+CE10 S004     05-AUG-22 05-AUG-25
+CE08 S005     17-FEB-23 17-FEB-26
+CE12 S005     01-MAR-23 01-MAR-26
+CE01 S006     10-JAN-20 10-JAN-23
+CE07 S006     01-JUN-20 01-JUN-25
+CE06 S007     01-DEC-19 01-DEC-24
+CE04 S007     01-JAN-20 01-JAN-25
+CE10 S008     01-JUN-21 01-JUN-26
+CE09 S009     20-SEP-20 20-SEP-25
+CE01 S009     01-MAR-21 01-MAR-24
+CE08 S010     05-NOV-22 05-NOV-25
+CE12 S010     01-JAN-23 01-JAN-26
+CE01 S011     25-MAR-24 25-MAR-27
+CE01 S012     17-OCT-22 17-OCT-25
+CE07 S012     01-JAN-23 01-JAN-26
+CE10 S013     05-APR-23 05-APR-26
+CE05 S013     15-APR-23 15-APR-26
+CE08 S014     04-DEC-19 04-DEC-24
+CE10 S015     30-JUN-22 30-JUN-27
+CE15 S015     01-JAN-23 01-JAN-28
+CE01 S016     18-FEB-21 18-FEB-24
+CE01 S017     09-OCT-20 09-OCT-23
+CE07 S017     01-JAN-21 01-JAN-26
+CE01 S018     13-AUG-22 13-AUG-25
+CE01 S019     16-MAY-23 16-MAY-27
+CE01 S020     01-JAN-23 01-JAN-26
+CE01 S021     21-APR-22 21-APR-25
+CE07 S021     01-JUN-22 01-JUN-27
+CE01 S022     28-FEB-22 28-FEB-25
+CE01 S023     01-JUN-22 01-JUN-25
+
+CERT STAFF ID ISSUE_DAT EXPIRATIO
+---- -------- --------- ---------
+CE01 S024     12-NOV-22 12-NOV-25
+CE03 S024     01-FEB-23 01-FEB-26
+CE01 S025     03-SEP-24 03-SEP-27
+CE01 S026     14-OCT-23 14-OCT-26
+CE07 S026     01-JAN-24 01-JAN-27
+CE01 S027     28-MAR-23 28-MAR-28
+CE01 S028     17-JUN-23 17-JUN-27
+CE10 S029     26-SEP-22 26-SEP-25
+CE01 S030     23-MAY-25 23-MAY-28
+CE10 S031     01-JAN-20 01-JAN-25
+CE15 S031     01-JAN-21 01-JAN-26
+=========
+work_assignment
+=========
+
+Order  STAFF ID
+------ --------
+O006   S010
+       S019
+       S029
+
+O007   S020
+       S031
+
+O008   S002
+       S010
+       S027
+
+O009   S004
+       S012
+
+O010   S008
+       S018
+
+O020   S003
+       S029
+
+O021   S019
+       S031
+
+O022   S002
+       S003
+
+O023   S004
+       S012
+
+O024   S008
+       S019
+
+=========
+menu_item
+=========
+
+MENU Dish Name                     Price Description
+---- ------------------------- --------- -----------------------------------
+M001 Beef Lasagna                 $13.50 Layered pasta with seasoned beef,
+                                         ricotta, and marinara sauce
+
+M002 Grilled Salmon               $17.25 Fresh salmon fillet grilled and
+                                         served with lemon butter sauce
+
+M003 Vegetable Stir Fry           $10.75 Mixed seasonal vegetables sauteed
+                                         in a savory soy glaze
+
+M004 Lamb Stew                    $14.00 Slow-cooked lamb with potatoes,
+                                         carrots, and herbs
+
+M005 Chicken Alfredo              $12.50 Creamy Alfredo pasta topped with
+                                         grilled chicken
+
+M006 Doro Wat                     $18.50 Spiced Ethiopian chicken stew
+                                         served with injera
+
+M007 Fish Amok                    $12.00 Steamed white fish curry in banana
+                                         leaves
+
+M008 Pumpkin Curry                $14.00 Aromatic pumpkin curry served with
+                                         jasmine rice
+
+M009 Pho                           $9.50 Vietnamese beef noodle soup with
+                                         herbs
+
+M010 Kentucky Pork Ribs           $11.25 Slow-smoked pork ribs with a
+                                         seasoned rub
+
+M011 Korean Beef Bulgogi          $15.25 Sweet and savory marinated beef
+                                         grilled and served with rice
+
+M012 Chicken Biryani              $13.75 Fragrant basmati rice with spiced
+                                         chicken and herbs
+
+M013 Beef Biryani                 $14.50 Traditional spiced rice dish cooked
+
+MENU Dish Name                     Price Description
+---- ------------------------- --------- -----------------------------------
+                                         with marinated beef
+
+M014 Beef Pilaf                   $12.25 Rice pilaf with tender beef,
+                                         onions, and mild spices
+
+M015 Chicken Tikka                $11.00 Char-grilled marinated chicken with
+                                         aromatic spices
+
+M016 Halewa                        $7.50 Dense sesame candy made with tahini
+                                         and sugar
+
+M017 Num Ansom                     $9.00 Cambodian sticky rice cake wrapped
+                                         in banana leaves
+
+M018 Mango Sticky Rice             $8.25 Sweet coconut sticky rice served
+                                         with ripe mango
+
+M019 Che Ba Mau                    $6.75 Vietnamese three-color dessert with
+                                         beans and jelly
+
+M020 Peach Cobbler                 $5.50 Warm peach filling baked with a
+                                         buttery crust
+
+M021 Bungeo-ppang                  $4.25 Korean fish-shaped pastry filled
+                                         with sweet red bean
+
+M022 Coconut Pudding               $5.75 Smooth coconut custard served
+                                         chilled
+
+M023 Chocolate Mousse              $6.25 Light and airy chocolate dessert
+                                         topped with whipped cream
+
+M024 Baklava                       $7.00 Flaky dessert layered with nuts and
+                                         honey syrup
+
+M025 Black Sesame Ice Cream        $5.75 Creamy ice cream made with roasted
+                                         black sesame for a rich, nutty
+
+MENU Dish Name                     Price Description
+---- ------------------------- --------- -----------------------------------
+                                         flavor
+
+M026 Ethiopian Honey Wine          $9.50 Traditional honey-fermented wine
+M027 Tlong                         $3.75 Cambodian iced drink with basil
+                                         seeds and syrup
+
+M028 Thai Tea                      $4.25 Sweet black tea with spices and
+                                         condensed milk
+
+M029 Vietnamese Iced Coffee        $4.75 Strong coffee brewed with sweetened
+                                         condensed milk
+
+M030 Southern Sweet Tea            $2.50 Classic chilled black tea sweetened
+                                         generously
+
+M031 Makgeolli                     $6.00 Korean rice wine with a lightly
+                                         sparkling finish
+
+M032 Lemon Mint Cooler             $3.50 Refreshing lemonade blended with
+                                         mint leaves
+
+M033 Ginger Iced Tea               $3.75 Chilled black tea infused with
+                                         fresh ginger
+
+M034 Tamarind Juice                $3.50 Sweet and tangy tamarind beverage
+M035 Hibiscus Tea                  $3.25 Bright red herbal tea with floral
+                                         notes
+
+M036 Cucumber Lime Refresher       $3.50 Cool drink made with cucumber,
+                                         lime, and a touch of sugar
+
+M037 Passion Fruit Soda            $4.00 Sparkling beverage with passion
+                                         fruit flavor
+
+M038 Vietnamese Coconut Water      $3.50 Fresh coconut water served chilled
+M039 Korean Corn Tea               $2.75 Light roasted corn-infused tea
+                                         served cold
+
+MENU Dish Name                     Price Description
+---- ------------------------- --------- -----------------------------------
+
+M040 Spiced Chai Latte             $4.50 Creamy tea made with aromatic chai
+                                         spices
+
+M041 Coconut Rice Pudding          $6.00 Slow-cooked creamy rice pudding
+                                         with coconut milk and vanilla
+
+M042 Gulab Jamun                   $4.50 Soft fried milk dough balls soaked
+                                         in warm cardamom syrup
+
+M043 Chocolate Lava Cake           $6.75 Warm chocolate cake with a molten
+                                         center served with vanilla drizzle
+
+M044 Matcha Cheesecake             $7.25 Rich cheesecake infused with
+                                         Japanese matcha and a graham crust
+
+M045 Banana Fritters               $5.00 Crispy fried banana slices drizzled
+                                         with honey and sesame seeds
+
+=========
+menu_item_ingredient
+=========
+
+MENU INGREDIENT
+---- ------------------------------
+M001 beef
+M001 marinara sauce
+M001 mozzarella
+M001 pasta sheets
+M001 ricotta
+M002 black pepper
+M002 butter
+M002 garlic
+M002 lemon
+M002 salmon
+M003 bell peppers
+M003 broccoli
+M003 carrots
+M003 sesame oil
+M003 soy sauce
+M004 carrots
+M004 herbs
+M004 lamb
+M004 onions
+M004 potatoes
+M005 chicken
+M005 cream
+M005 fettuccine
+M005 garlic
+M005 parmesan
+M006 berbere spice
+M006 chicken
+M006 ginger
+M006 injera
+M006 onions
+M007 banana leaves
+M007 coconut milk
+M007 lemongrass
+M007 turmeric
+M007 white fish
+M008 coconut milk
+M008 curry paste
+
+MENU INGREDIENT
+---- ------------------------------
+M008 garlic
+M008 jasmine rice
+M008 pumpkin
+M009 basil
+M009 bean sprouts
+M009 beef broth
+M009 beef slices
+M009 rice noodles
+M010 brown sugar
+M010 dry rub
+M010 garlic powder
+M010 pork ribs
+M010 smoke seasoning
+M011 beef
+M011 garlic
+M011 ginger
+M011 sesame oil
+M011 soy sauce
+M012 basmati rice
+M012 biryani spices
+M012 chicken
+M012 onions
+M012 yogurt
+M013 basmati rice
+M013 beef
+M013 biryani spices
+M013 cilantro
+M013 onions
+M014 beef
+M014 butter
+M014 mild spices
+M014 onions
+M014 rice
+M015 chicken
+M015 garlic
+M015 ginger
+M015 tikka spices
+
+MENU INGREDIENT
+---- ------------------------------
+M015 yogurt
+M016 cardamom
+M016 sesame
+M016 sugar
+M016 tahini
+M017 banana leaves
+M017 mung beans
+M017 pork
+M017 sticky rice
+M018 coconut milk
+M018 mango
+M018 sticky rice
+M018 sugar
+M019 coconut milk
+M019 jelly
+M019 mung beans
+M019 red beans
+M020 butter
+M020 flour
+M020 peaches
+M020 sugar
+M021 red bean paste
+M021 sugar
+M021 wheat flour
+M022 coconut milk
+M022 gelatin
+M022 sugar
+M023 chocolate
+M023 cream
+M023 egg whites
+M023 sugar
+M024 butter
+M024 honey
+M024 phyllo dough
+M024 walnuts
+M025 black sesame
+M025 cream
+
+MENU INGREDIENT
+---- ------------------------------
+M025 milk
+M025 sugar
+M026 honey
+M026 water
+M026 yeast
+M027 basil seeds
+M027 ice
+M027 syrup
+M027 water
+M028 black tea
+M028 condensed milk
+M028 spices
+M028 sugar
+M029 coffee
+M029 condensed milk
+M029 ice
+M030 black tea
+M030 sugar
+M030 water
+M031 rice
+M031 water
+M031 yeast
+M032 lemon
+M032 mint
+M032 sugar
+M032 water
+M033 black tea
+M033 ginger
+M033 sugar
+M034 sugar
+M034 tamarind
+M034 water
+M035 hibiscus
+M035 sugar
+M035 water
+M036 cucumber
+M036 lime
+
+MENU INGREDIENT
+---- ------------------------------
+M036 sugar
+M036 water
+M037 passion fruit
+M037 soda water
+M037 sugar
+M038 coconut water
+M039 roasted corn
+M039 water
+M040 black tea
+M040 chai spices
+M040 milk
+M040 sugar
+M041 coconut milk
+M041 rice
+M041 sugar
+M041 vanilla
+M042 cardamom
+M042 flour
+M042 milk powder
+M042 sugar
+M043 butter
+M043 chocolate
+M043 flour
+M043 sugar
+M044 cream cheese
+M044 graham crust
+M044 matcha
+M044 sugar
+M045 banana
+M045 flour
+M045 honey
+M045 sesame seeds
+=========
+menu_item_dietary_tags
+=========
+
+MENU DIETARY_TAG
+---- ------------------------------
+M001 contains-dairy
+M001 gluten
+M002 gluten-free
+M002 pescatarian
+M003 gluten-free
+M003 vegan
+M004 gluten-free
+M005 Gluten
+M005 contains-dairy
+M006 contains-dairy
+M006 gluten
+M007 gluten-free
+M007 pescatarian
+M008 gluten-free
+M008 vegan
+M009 gluten-free
+M010 gluten-free
+M011 gluten-free
+M012 contains-dairy
+M012 gluten
+M013 gluten
+M014 gluten
+M015 gluten
+M016 gluten-free
+M016 vegan
+M017 contains-meat
+M017 gluten-free
+M018 gluten-free
+M018 vegan
+M019 gluten-free
+M019 vegan
+M020 contains-dairy
+M020 gluten
+M021 gluten
+M021 vegan
+M022 gluten-free
+M022 vegan
+
+MENU DIETARY_TAG
+---- ------------------------------
+M023 contains-dairy
+M023 gluten
+M024 contains-dairy
+M024 gluten
+M025 contains-dairy
+M025 gluten
+M026 contains-alcohol
+M026 gluten-free
+M026 vegan
+M027 gluten-free
+M027 vegan
+M028 contains-dairy
+M028 gluten-free
+M029 contains-dairy
+M029 gluten-free
+M030 gluten-free
+M030 vegan
+M031 contains-alcohol
+M031 vegan
+M032 gluten-free
+M032 vegan
+M033 gluten-free
+M033 vegan
+M034 gluten-free
+M034 vegan
+M035 gluten-free
+M035 vegan
+M036 gluten-free
+M036 vegan
+M037 gluten-free
+M037 vegan
+M038 gluten-free
+M038 vegan
+M039 gluten-free
+M039 vegan
+M040 contains-dairy
+M040 gluten-free
+
+MENU DIETARY_TAG
+---- ------------------------------
+M041 contains-dairy
+M041 gluten-free
+M042 contains-dairy
+M042 gluten
+M043 contains-dairy
+M043 gluten
+M044 contains-dairy
+M044 gluten
+M045 gluten
+M045 vegan
+=========
+menu_item_allergen_tags
+=========
+
+MENU ALLERGEN_TAG
+---- ------------------------------
+M001 dairy
+M001 gluten
+M002 dairy
+M002 fish
+M003 sesame
+M003 soy
+M005 dairy
+M005 gluten
+M006 gluten
+M007 coconut
+M007 fish
+M008 coconut
+M011 sesame
+M011 soy
+M012 dairy
+M014 dairy
+M015 dairy
+M016 sesame
+M018 coconut
+M019 coconut
+M020 dairy
+M020 gluten
+M021 gluten
+M022 coconut
+M023 chocolate
+M023 dairy
+M023 eggs
+M024 dairy
+M024 gluten
+M024 nuts
+M025 dairy
+M025 sesame
+M028 dairy
+M029 dairy
+M038 coconut
+M040 dairy
+M041 coconut
+
+MENU ALLERGEN_TAG
+---- ------------------------------
+M041 dairy
+M042 dairy
+M042 gluten
+M043 chocolate
+M043 dairy
+M043 gluten
+M044 dairy
+M044 gluten
+M045 gluten
+M045 sesame
+=========
+main_course
+=========
+
+MENU PREPARATION_TIME SPICE_
+---- ---------------- ------
+M001               18 Mild
+M002               20 Mild
+M003               25 Medium
+M004               22 Mild
+M005               17 Mild
+M006               45 Hot
+M007               28 Medium
+M008               30 Medium
+M009               15 Mild
+M010               40 Medium
+M011               26 Mild
+M012               35 Medium
+M013               38 Medium
+M014               32 Mild
+M015               24 Medium
+=========
+dessert
+=========
+
+MENU SWEETNESS_LEVEL C
+---- --------------- -
+M016               8 N
+M017               5 N
+M018               8 Y
+M019               6 N
+M020               8 Y
+M021               6 Y
+M022               7 Y
+M023               7 Y
+M024               8 Y
+M025               6 Y
+M041               7 Y
+M042               9 Y
+M043               8 Y
+M044               7 Y
+M045               6 N
+=========
+beverage
+=========
+
+MENU TEMPE ALCOHOL_CONTENT
+---- ----- ---------------
+M026 cold               12
+M027 cold                0
+M028 cold                0
+M029 cold                0
+M030 cold                0
+M031 cold                6
+M032 cold                0
+M033 cold                0
+M034 cold                0
+M035 cold                0
+M036 cold                0
+M037 cold                0
+M038 cold                0
+M039 cold                0
+M040 hot                 0
+=========
+item_cuisine
+=========
+
+CUIS MENU
+---- ----
+CU02 M001
+CU02 M005
+CU04 M024
+CU06 M006
+CU06 M016
+CU06 M026
+CU07 M007
+CU07 M017
+CU07 M027
+CU08 M003
+CU08 M008
+CU08 M018
+CU08 M022
+CU08 M028
+CU08 M032
+CU08 M033
+CU08 M034
+CU08 M035
+CU08 M036
+CU08 M037
+CU08 M041
+CU08 M045
+CU09 M009
+CU09 M019
+CU09 M029
+CU09 M038
+CU10 M010
+CU10 M020
+CU10 M030
+CU11 M012
+CU11 M013
+CU11 M014
+CU11 M015
+CU11 M042
+CU13 M002
+CU13 M023
+CU13 M040
+
+CUIS MENU
+---- ----
+CU13 M043
+CU15 M004
+CU20 M011
+CU20 M021
+CU20 M025
+CU20 M031
+CU20 M039
+CU20 M044
+=========
+supply_order
+=========
+
+SUPP SUPP ORDER_DAT DELIVERY_ PAYMENT_STATUS                 STAFF ID
+---- ---- --------- --------- ------------------------------ --------
+SO01 SP05 02-MAY-23 06-MAY-23 Paid                           S007
+SO02 SP02 15-JUL-23 20-JUL-23 Paid                           S009
+SO03 SP07 10-AUG-23 12-AUG-23 Pending                        S003
+SO04 SP10 05-JAN-24 10-JAN-24 Paid                           S006
+SO05 SP04 22-MAR-24 25-MAR-24 On Hold                        S012
+SO06 SP23 12-APR-24 17-APR-24 Paid                           S016
+SO07 SP15 01-MAY-24 04-MAY-24 Pending                        S018
+SO08 SP26 18-JUN-24 20-JUN-24 Paid                           S021
+SO09 SP19 28-JUL-24 30-JUL-24 Paid                           S009
+SO10 SP21 14-SEP-24 18-SEP-24 Pending                        S028
+SO11 SP24 02-OCT-24 06-OCT-24 Paid                           S020
+SO12 SP26 15-DEC-24 18-DEC-24 Pending                        S017
+SO13 SP14 20-JAN-25 23-JAN-25 Paid                           S025
+SO14 SP28 08-FEB-25 11-FEB-25 On Hold                        S026
+SO15 SP07 30-MAR-25 04-APR-25 Pending                        S030
+SO16 SP01 10-APR-25 13-APR-25 Paid                           S005
+SO17 SP03 12-APR-25 15-APR-25 Paid                           S008
+SO18 SP06 14-APR-25 18-APR-25 Pending                        S010
+SO19 SP08 20-APR-25 22-APR-25 Paid                           S011
+SO20 SP09 22-APR-25 27-APR-25 Paid                           S013
+SO21 SP11 24-APR-25 28-APR-25 Paid                           S014
+SO22 SP12 26-APR-25 30-APR-25 Pending                        S015
+SO23 SP13 01-MAY-25 04-MAY-25 Paid                           S016
+SO24 SP16 03-MAY-25 06-MAY-25 Paid                           S017
+SO25 SP17 04-MAY-25 07-MAY-25 Pending                        S018
+SO26 SP18 06-MAY-25 09-MAY-25 Paid                           S019
+SO27 SP20 08-MAY-25 10-MAY-25 Pending                        S020
+SO28 SP22 10-MAY-25 13-MAY-25 Paid                           S021
+SO29 SP25 12-MAY-25 15-MAY-25 Paid                           S022
+SO30 SP27 14-MAY-25 17-MAY-25 Pending                        S023
+SO31 SP29 16-MAY-25 19-MAY-25 Paid                           S024
+SO32 SP30 18-MAY-25 21-MAY-25 Paid                           S025
+SO33 SP31 22-MAY-25 25-MAY-25 Paid                           S005
+SO34 SP32 24-MAY-25 28-MAY-25 Pending                        S006
+=========
+supply_order_item
+=========
+
+SUPP INGREDIENT_NAME
+---- ------------------------------
+SO01 Beef
+SO01 Onions
+SO01 Pasta Sheets
+SO01 Ricotta
+SO01 Tomatoes
+SO02 Chicken
+SO02 Herbs
+SO02 Rice
+SO02 Spices
+SO03 Fresh Vegetables
+SO03 Sesame Oil
+SO03 Soy Sauce
+SO04 Butter
+SO04 Lemon
+SO04 Salmon Fillets
+SO05 Cookware
+SO05 Cutlery
+SO05 Paper Goods
+SO05 Serving Trays
+SO06 Baking Supplies
+SO06 Eggs
+SO06 Milk Products
+SO06 Wheat Flour
+SO07 Carrots
+SO07 Lamb
+SO07 Potatoes
+SO08 Coconut Milk
+SO08 Mango
+SO08 Sticky Rice
+SO09 Beef Bones
+SO09 Fresh Herbs
+SO09 Rice Noodles
+SO10 Coffee Beans
+SO10 Condensed Milk
+SO10 Tea Leaves
+SO11 BBQ Rub
+SO11 Cooking Utensils
+
+SUPP INGREDIENT_NAME
+---- ------------------------------
+SO11 Pork Ribs
+SO12 Chai Spices
+SO12 Cream
+SO12 Tea Bags
+SO13 Honey
+SO13 Syrups
+SO13 Wine Yeast
+SO14 Cream Cheese
+SO14 Graham Crumbs
+SO14 Matcha Powder
+SO15 Bananas
+SO15 Oil for Frying
+SO15 Sesame Seeds
+SO16 Lettuce
+SO16 Tomatoes
+SO17 Juice Concentrate
+SO17 Sparkling Water
+SO18 Broccoli
+SO18 Spinach
+SO19 Cheese
+SO19 Milk
+SO20 Bread Loaves
+SO20 Pastry Dough
+SO21 Fresh Corn
+SO21 Wheat Berries
+SO22 Apples
+SO22 Pears
+SO23 Beets
+SO23 Carrots
+SO24 Berry Puree
+SO24 Strawberries
+SO25 Cornmeal
+SO25 Sweet Corn
+SO26 Oysters
+SO26 Shellfish
+SO27 Pine Nuts
+SO27 Wild Mushrooms
+
+SUPP INGREDIENT_NAME
+---- ------------------------------
+SO28 Folding Chairs
+SO28 Serving Trays
+SO29 Rockfish
+SO29 Salmon
+SO30 Baby Spinach
+SO30 Kale
+SO31 Milk
+SO31 Yogurt
+SO32 Decor Items
+SO32 Table Linens
+SO33 Baby Lettuce
+SO33 Microgreens
+SO34 Eggs
+SO34 Whole Chickens
+=========
+supplier
+=========
+
+SUPP SUPPLIER_NAME                                      SUPPLIER_P SUPPLIER_EMAIL
+---- -------------------------------------------------- ---------- ----------------------------------------
+SUPPLIER_ADDRESS                                                                                     SUPPLIER_TYPE
+---------------------------------------------------------------------------------------------------- ---------------
+SP01 Sunrise Farm                                       5035555001 orders@sunriseproduce.com
+45 Orchard Rd, Willowcreek, CA                                                                       Local Farmer
+
+SP02 Golden Grains Co.                                  5035555002 contact@goldengrains.com
+120 Wheat Blvd, Ferndale, CA                                                                         Other Supplier
+
+SP03 PureSpring Beverages                               5035555003 sales@purespringbev.com
+18 Riverbank Dr, Arcata, CA                                                                          Other Supplier
+
+SP04 Premium Party Supplies                             5035555004 info@premiumparty.com
+210 Festive Ln, Eureka, CA                                                                           Other Supplier
+
+SP05 Heritage Meats                                     5035555005 support@heritagemeats.com
+72 Butcher Ave, Arcata, CA                                                                           Local Farmer
+
+SP06 Green Valley Farms                                 5035551001 contact@greenvalley.com
+101 Farm Rd, Willowcreek, CA                                                                         Local Farmer
+
+SP07 Metro Produce Co                                   5035551002 sales@metroproduce.com
+22 Market St, Stockton, CA                                                                           Other Supplier
+
+SP08 Jersey Farm Ltd                                    5035551003 info@freshdairy.com
+88 Milk Ln, Ferndale, CA                                                                             Local Farmer
+
+SP09 Artisan Breads                                     5035551004 orders@artisanbread.com
+7 Bakery Way, Arcata, CA                                                                             Other Supplier
+
+SP10 Pacific Coast Seafood                              5035551005 hello@coastalseafood.com
+500 Harbor Dr, Eureka, CA                                                                            Other Supplier
+
+SP11 Harrell Farms                                      5035552001 orders@harell.com
+1200 Market St, Denver, CO                                                                           Other Supplier
+
+SP12 Hundred Acre Orchard                               5035552002 info@hundredacreorchard.com
+42 Industrial Ave, Dallas, TX                                                                        Other Supplier
+
+SUPP SUPPLIER_NAME                                      SUPPLIER_P SUPPLIER_EMAIL
+---- -------------------------------------------------- ---------- ----------------------------------------
+SUPPLIER_ADDRESS                                                                                     SUPPLIER_TYPE
+---------------------------------------------------------------------------------------------------- ---------------
+
+SP13 Forkfield Farms                                    5035552003 info@forkfield.com
+88 Harbor Rd, Seattle, WA                                                                            Local Farmer
+
+SP14 Bees Knees Apiary                                  5035552004 service@bka.com
+15 Tool Park, Weott, CA                                                                              Local Farmer
+
+SP15 Apollo Ranchers                                    5035552005 info@apolloranchers.com
+501 Tech Blvd, San Jose, CA                                                                          Local Farmer
+
+SP16 Delphi Strawberry Fields Co.                       5035552006 contact@delphifields.com
+302 Berry Patch Rd, Fresno, CA                                                                       Local Farmer
+
+SP17 Cornucopia Corn Farm                               5035552007 orders@cornucopiacorn.com
+17 Maize Loop, Kneeland, CA                                                                          Local Farmer
+
+SP18 Mertz Family Oysters                               5035552008 sales@mertzoysters.com
+900 Bay Shore Rd, Coos Bay, OR                                                                       Local Farmer
+
+SP19 Redwood Herbal Co.                                 5035552009 info@redwoodherbal.com
+302 Forest Glen Rd, Willowcreek, CA                                                                  Local Farmer
+
+SP20 Nathan Fillan                                      5035552020 natfillan@humboldtproducts.com
+120 Willow Creek Rd, Willowcreek, CA                                                                 Other Supplier
+
+SP21 Coastal Beverage Wholesale                         5035552021 sales@coastalbev.com
+88 Ocean View Dr, Loleta, CA                                                                         Other Supplier
+
+SP22 Northern Party Rentals                             5035552022 info@northernevents.com
+45 Festival Blvd, San Jose, CA                                                                       Other Supplier
+
+SP23 Sierra Baking Collective                           5035552023 orders@sierrabaking.com
+19 Hearthstone Ave, Redding, CA                                                                      Other Supplier
+
+SP24 Cascade Specialty Meats                            5035552024 contact@cascademeats.com
+
+SUPP SUPPLIER_NAME                                      SUPPLIER_P SUPPLIER_EMAIL
+---- -------------------------------------------------- ---------- ----------------------------------------
+SUPPLIER_ADDRESS                                                                                     SUPPLIER_TYPE
+---------------------------------------------------------------------------------------------------- ---------------
+501 Butcher Row, San Diego, CA                                                                       Other Supplier
+
+SP25 Commons Traditional Fisheries                      5035552055 info@commonsfisheries.com
+77 Wharfside Ln, Newport, OR                                                                         Local Farmer
+
+SP26 Horizon Spice Traders                              5035552065 contact@horizonspice.com
+55 Caravan Way, Sacramento, CA                                                                       Other Supplier
+
+SP27 Everfresh Greens                                   5035552075 info@everfreshgreens.com
+202 Valley Crest Rd, Chico, CA                                                                       Local Farmer
+
+SP28 Harvest Home Bakery                                5035552085 orders@harvesthomebakery.com
+18 Hearthside Dr, Medford, OR                                                                        Other Supplier
+
+SP29 Blue Mountain Dairy                                5035552095 service@bluemountaindairy.com
+600 Meadow Creek Rd, Tillamook, OR                                                                   Local Farmer
+
+SP30 Pacific Event Decor                                5035552017 info@pacificeventdecor.com
+240 Celebration Ave, San Diego, CA                                                                   Other Supplier
+
+SP31 Bayside Microgreens                                7075559832 orders@baysidemicrogreens.com
+Bayside, CA                                                                                          Local Farmer
+
+SP32 Redwood Ridge Poultry                              7075554920 contact@redwoodridgepoultry.com
+Blue Lake, CA                                                                                        Local Farmer
+
+=========
+local_farmer
+=========
+
+SUPP FARM_ITEMS                                         Farm Region
+---- -------------------------------------------------- ----------------------------
+SP01 Mixed Produce                                      Northern California
+SP05 Beef and Pork                                      Northern California
+SP06 Vegetables                                         Northern California
+SP08 Dairy                                              Northern California
+SP13 Organic Vegetables                                 Pacific Northwest
+SP14 Honey and Beeswax                                  Northern California
+SP15 Grass-fed Beef                                     Bay Area California
+SP16 Strawberries                                       Central California
+SP17 Sweet Corn                                         Northern California
+SP18 Oysters                                            Pacific Northwest
+SP19 Culinary and Medicinal Herbs                       Northern California
+SP25 Wild-caught Fish                                   Pacific Northwest
+SP27 Leafy Greens                                       Northern California
+SP29 Dairy Products                                     Pacific Northwest
+=========
+other_supplier
+=========
+
+SUPP SUPPLY_ITEMS                                       SUPPLIER_CITY
+---- -------------------------------------------------- --------------------------------------------------
+SP02 Dry Goods                                          Ferndale
+SP03 Packaged Beverages                                 Arcata
+SP04 Party Supplies                                     Eureka
+SP07 Produce Distribution                               Stockton
+SP09 Baked Goods                                        Arcata
+SP10 Seafood Distribution                               Eureka
+SP11 Grains and Produce                                 Denver
+SP12 Apples and Stone Fruit                             Dallas
+SP20 Foraged Goods                                      Willowcreek
+SP21 Beverage Wholesale                                 Loleta
+SP22 Party Rentals and Supplies                         San Jose
+SP23 Bakery Products                                    Redding
+SP24 Processed Meats                                    San Diego
+SP26 Spices and Seasonings                              Sacramento
+SP28 Bakery Products                                    Medford
+SP30 Event Decor and Supplies                           San Diego
+=========
+cars
+=========
+
+CAR_ LICENSE CAR_TYPE
+---- ------- ----------
+CA01 DEL1234 Van
+CA02 CATE567 Truck
+CA03 FOOD912 Van
+CA04 SERV445 SUV
+CA05 EVT7788 Van
+CA06 ABC1234 Van
+CA07 XYZ5678 Van
+CA08 CAT7890 Truck
+CA09 FOO1111 Van
+CA10 BAR2222 SUV
+CA11 8GUS164 SUV
+CA12 5GHS742 SUV
+CA13 6ISH835 Van
+CA14 9GJE465 Van
+CA15 8TUJ573 Truck
+=========
+car_allowed_uses
+=========
+
+CAR_ USE_TYPE
+---- ----------
+CA01 Delivery
+CA02 Supply
+CA03 Delivery
+CA04 Event
+CA05 Event
+CA06 Delivery
+CA06 Supply
+CA07 Delivery
+CA08 Supply
+CA09 Delivery
+CA10 Event
+CA11 Event
+CA12 Event
+CA13 Delivery
+CA14 Supply
+CA15 Supply
+=========
+car_registration
+=========
+
+CAR_ EXPIRATIO
+---- ---------
+CA01 31-JAN-26
+CA02 28-FEB-26
+CA03 31-MAR-26
+CA04 30-APR-26
+CA05 31-MAY-26
+CA06 30-JUN-26
+CA07 31-DEC-25
+CA08 15-MAR-26
+CA09 01-JAN-26
+CA10 01-SEP-26
+CA11 30-NOV-26
+CA12 31-DEC-26
+CA13 15-JAN-26
+CA14 15-FEB-26
+CA15 15-MAR-26
+=========
+equipment
+=========
+
+EQUI EQUIPMENT ITEM                 QTY PURCHASE_
+---- ---------------------------- ----- ---------
+EQ01 Serving Trays                   50 10-FEB-21
+EQ02 Coolers                         15 20-JUN-22
+EQ03 Portable Stoves                  8 05-JAN-23
+EQ04 Lighting Equipment              12 15-NOV-21
+EQ05 Plates                         400 30-APR-22
+EQ06 Chairs                         100 01-MAR-21
+EQ07 Tables                          20 01-MAR-21
+EQ08 Tents                            5 10-MAY-22
+EQ09 Warmers                         10 15-JAN-23
+EQ10 Glassware                      200 01-SEP-22
+EQ11 Silverware Sets                400 14-JUL-23
+EQ12 Cooking Utensils                40 05-NOV-24
+EQ13 Tinfoil                        500 29-OCT-25
+EQ14 Grill                            6 13-AUG-22
+EQ15 Flat-Top Grill                   3 30-MAY-22
+=========
+equipment_assignment
+=========
+
+EQUI Order  DATE_USED DATE_RETU
+---- ------ --------- ---------
+EQ13 O001   03-JAN-25 03-JAN-25
+
+EQ13 O002   04-JAN-25 04-JAN-25
+
+EQ13 O003   06-JAN-25 06-JAN-25
+
+EQ13 O004   09-JAN-25 12-JAN-25
+
+EQ13 O005   13-JAN-25 13-JAN-25
+
+EQ06 O006   15-JAN-25 16-JAN-25
+EQ07        15-JAN-25 16-JAN-25
+
+EQ06 O007   05-MAR-25 06-MAR-25
+
+EQ08 O008   03-APR-25 04-APR-25
+
+EQ09 O009   01-OCT-23 02-OCT-23
+
+EQ10 O010   01-NOV-22 02-NOV-22
+
+EQ13 O011   03-MAY-25 03-MAY-25
+
+EQ13 O012   05-MAY-25 03-MAY-25
+
+EQ13 O013   08-MAY-25 08-MAY-25
+
+EQ13 O014   12-MAY-25 13-MAY-25
+
+EQ13 O015   16-MAY-25 16-MAY-25
+
+EQ13 O016   15-APR-25 15-APR-25
+
+EQ13 O017   12-JUN-25 12-JUN-25
+
+EQ13 O018   07-JAN-25 07-JAN-25
+
+
+EQUI Order  DATE_USED DATE_RETU
+---- ------ --------- ---------
+EQ13 O019   21-AUG-25 21-AUG-25
+
+EQ13 O020   05-MAR-25 05-MAR-25
+
+EQ13 O021   10-MAY-25 10-MAY-25
+
+EQ13 O022   10-SEP-25 10-SEP-25
+
+EQ13 O023   13-FEB-25 14-FEB-25
+
+EQ13 O024   18-JUL-25 18-JUL-25
+
+EQ13 O025   14-JUL-25 14-JUL-25
+
+EQ13 O026   26-FEB-25 26-FEB-25
+
+EQ13 O027   09-NOV-25 09-NOV-25
+
+EQ13 O028   12-MAY-25 12-MAY-25
+
+EQ13 O029   08-MAR-25 08-MAR-25
+
+EQ13 O030   28-JUL-25 28-JUL-25
+
+EQ03 O014   01-DEC-25
+
+EQ05 O022   05-DEC-25
+
+EQ07 O018   03-DEC-25
+
+EQ02 O009   20-NOV-25
+
+EQ06 O011   18-NOV-25
+
+=========
+car_assignment
+=========
+
+CAR_ Order  DATE_USED DATE_RETU
+---- ------ --------- ---------
+CA04 O001   03-JAN-25 03-JAN-25
+
+CA05 O002   04-JAN-25 04-JAN-25
+
+CA10 O003   06-JAN-25 06-JAN-25
+
+CA11 O004   09-JAN-25 12-JAN-25
+
+CA12 O005   13-JAN-25 13-JAN-25
+
+CA04 O006   15-JAN-25 15-JAN-25
+
+CA05 O007   05-MAR-25 05-MAR-25
+
+CA10 O008   03-APR-25 03-APR-25
+
+CA11 O009   01-OCT-23 01-OCT-23
+
+CA12 O010   01-NOV-22 01-NOV-22
+
+CA04 O011   03-MAY-25 03-MAY-25
+
+CA05 O012   05-MAY-25 03-MAY-25
+
+CA10 O013   08-MAY-25 08-MAY-25
+
+CA11 O014   12-MAY-25 13-MAY-25
+
+CA12 O015   16-MAY-25 16-MAY-25
+
+CA01 O016   15-APR-25 15-APR-25
+
+CA03 O017   12-JUN-25 12-JUN-25
+
+CA06 O018   07-JAN-25 07-JAN-25
+
+CA07 O019   21-AUG-25 21-AUG-25
+
+CAR_ Order  DATE_USED DATE_RETU
+---- ------ --------- ---------
+
+CA09 O020   05-MAR-25 05-MAR-25
+
+CA07 O021   10-MAY-25 10-MAY-25
+
+CA13 O022   10-SEP-25 10-SEP-25
+
+CA09 O023   13-FEB-25 14-FEB-25
+
+CA13 O024   18-JUL-25 18-JUL-25
+
+CA01 O025   14-JUL-25 14-JUL-25
+
+CA03 O026   26-FEB-25 26-FEB-25
+
+CA06 O027   09-NOV-25 09-NOV-25
+
+CA07 O028   12-MAY-25 12-MAY-25
+
+CA09 O029   08-MAR-25 08-MAR-25
+
+CA13 O030   28-JUL-25 28-JUL-25
+

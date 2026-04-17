@@ -1,0 +1,13 @@
+
+Savory Delights: Locally Supplied Ingredients by Regions
+Farm Region                  Ingredients Count Ingredients Supplied
+---------------------------- ----------------- ----------------------------------------------------------------------------------------------------
+Bay Area California                          3 Carrots, Lamb, Potatoes
+Central California                           2 Berry Puree, Strawberries
+Northern California                         20 Baby Spinach, Beef, Beef Bones, Broccoli, Cheese, Cornmeal, Fresh Herbs, Honey, Kale, Lettuce, Milk,
+                                               Onions, Pasta Sheets, Rice Noodles, Ricotta, Spinach, Sweet Corn, Syrups, Tomatoes, Wine Yeast
+
+Pacific Northwest                            8 Beets, Carrots, Milk, Oysters, Rockfish, Salmon, Shellfish, Yogurt
+
+4 rows selected.
+
